@@ -26,6 +26,9 @@ This repo is an investigation in the different workflows I currently use git for
 - [ ] View commit graph
 - [ ] View commit blame
 
+## `jj` specific features
+- [ ] ???
+
 ## What is `jj` ([Jujutsu](https://github.com/jj-vcs/jj))?
 `jj` is a new version control system that is designed to be a drop-in replacement for `git`. It is built on top of the same concepts as `git`, but it is designed to be more user-friendly and to have a more intuitive command set. It is also designed to be more efficient and to have better performance than `git`.
 
