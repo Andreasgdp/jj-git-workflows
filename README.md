@@ -14,7 +14,7 @@ This repo is an investigation in the different workflows I currently use git for
 - [ ] [Working with multiple long-lived branches](branch_management/multiple_branches.md) e.g. `master`, `staging`, `production`
 
 ### Commit Management
-- [ ] [Create a new commit/change](commit_management/create_commit.md)
+- [x] [Create a new commit/change](commit_management/create_commit.md)
 - [ ] [Revert commit](commit_management/revert_commit.md)
 - [ ] [Undoing changes](commit_management/undo_changes.md)
 - [ ] [Reset changes](commit_management/reset_changes.md) - e.g. `git reset --hard origin/master`
