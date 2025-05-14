@@ -1,6 +1,12 @@
 # `jj` as a replacement for `git`
 This repo is an investigation in the different workflows I currently use git for and how they can be replaced with `jj`. The goal is to find out if `jj` can be used as a drop-in replacement for `git` in my daily workflow as well as to find out if there are any workflows that `jj` can improve upon. 
 
+## TODO
+- [ ] Create a repo for testing
+- [ ] Make TODO for advanced Git usages
+- [ ] Walk through jj equivalent for Git usages
+- [ ] Explore unique jj features
+
 ## What is `jj` ([Jujutsu](https://github.com/jj-vcs/jj))?
 `jj` is a new version control system that is designed to be a drop-in replacement for `git`. It is built on top of the same concepts as `git`, but it is designed to be more user-friendly and to have a more intuitive command set. It is also designed to be more efficient and to have better performance than `git`.
 
@@ -10,8 +16,3 @@ This repo is an investigation in the different workflows I currently use git for
 
 >> Today, we use Git repositories as a storage layer to serve and track content, making it compatible with many of your favorite Git-based tools, right now! All core developers use Jujutsu to develop Jujutsu, right here on GitHub. But it should hopefully work with your favorite Git forges, too.
 
-## TODO
-- [ ] Create a repo for testing
-- [ ] Make TODO for advanced Git usages
-- [ ] Walk through jj equivalent for Git usages
-- [ ] Explore unique jj features
