@@ -9,6 +9,7 @@ This repo is an investigation in the different workflows I currently use git for
 
 ## Use Cases
 ### Branch Management
+- [ ] [Start work on branch convert to new branch](branch_management/move_work_onto_branch.md) - e.g. new commit on `master` branch -> feature/`<branch_name>` branch with master base + new commit
 - [ ] [Do stacked branches](branch_management/stacked_branches.md) - working on multiple branches at once to be merged chronologically
 - [ ] [Continue work on colleague's branch](branch_management/colleague_branch.md)
 - [ ] [Working with multiple long-lived branches](branch_management/multiple_branches.md) e.g. `master`, `staging`, `production`
