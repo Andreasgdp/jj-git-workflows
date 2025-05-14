@@ -8,23 +8,32 @@ This repo is an investigation in the different workflows I currently use git for
 - [ ] Explore unique jj features
 
 ## Use Cases
-- [ ] Do stacked branches - working on multiple branches at once to be merged chronologically
-- [ ] Continue work on colleague's branch
-- [ ] Working with multiple long lived branches e.g. `master`, `staging`, `production`
-- [ ] Create a new commit/change
-- [ ] Push changes to a remote repo
-- [ ] Pull changes from a remote repo
-- [ ] Get latest changes from target branch - e.g. `master` or `staging` to `feature` branch
-- [ ] Cherry-pick changes from one branch to another
-- [ ] Stash changes - when switching tasks, how to deal with uncommitted/unfinished changes
-- [ ] Revert commit
-- [ ] Undoing changes
-- [ ] Reset changes - e.g. `git reset --hard origin/master`
-- [ ] View commit history
-- [ ] View commit differences
-- [ ] View commit details
-- [ ] View commit graph
-- [ ] View commit blame
+### Branch Management
+- [ ] [Do stacked branches](branch_management/stacked_branches.md) - working on multiple branches at once to be merged chronologically
+- [ ] [Continue work on colleague's branch](branch_management/colleague_branch.md)
+- [ ] [Working with multiple long-lived branches](branch_management/multiple_branches.md) e.g. `master`, `staging`, `production`
+
+### Commit Management
+- [ ] [Create a new commit/change](commit_management/create_commit.md)
+- [ ] [Revert commit](commit_management/revert_commit.md)
+- [ ] [Undoing changes](commit_management/undo_changes.md)
+- [ ] [Reset changes](commit_management/reset_changes.md) - e.g. `git reset --hard origin/master`
+
+### Remote Operations
+- [ ] [Push changes to a remote repo](remote_operations/push_changes.md)
+- [ ] [Pull changes from a remote repo](remote_operations/pull_changes.md)
+- [ ] [Get latest changes from target branch](remote_operations/get_latest_changes.md) - e.g. `master` or `staging` to `feature` branch
+- [ ] [PRs](remote_operations/pull_requests.md) - how to create a PR for a branch in `jj` and how to review a PR
+
+### Change Management
+- [ ] [Cherry-pick changes from one branch to another](change_management/cherry_pick.md)
+- [ ] [Stash changes](change_management/stash_changes.md) - when switching tasks, how to deal with uncommitted/unfinished changes
+
+### Viewing and Analysis
+- [ ] [View commit differences](viewing_analysis/view_commit_differences.md)
+- [ ] [View commit details](viewing_analysis/view_commit_details.md)
+- [ ] [View commit graph](viewing_analysis/view_commit_graph.md)
+- [ ] [View commit blame](viewing_analysis/view_commit_blame.md)
 
 ## `jj` specific features
 - [ ] ???
